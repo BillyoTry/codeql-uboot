@@ -8,3 +8,4 @@ from Function f //f是个Function类型的变量  Function是个类
 //这里的逻辑是找到所有名为 “strlen” 的函数
 where f.getName() = "strlen"
 select f, "a function named strlen"
+
