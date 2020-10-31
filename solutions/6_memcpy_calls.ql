@@ -7,5 +7,5 @@ import cpp
 
 // More compact version with the Function variable implicit
 from FunctionCall c
-where c.getTarget().getName() = "memcpy"
+where c.getTarget().hasName("memcpy")
 select c
